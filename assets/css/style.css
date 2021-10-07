@@ -1,0 +1,186 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('./../font/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: 900;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url('./../font/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url('./../font/Montserrat-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #E22C3B;
+    font-family: Montserrat, sans-serif;
+    margin: 0px;
+}
+
+button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 0px 0px #BA2431;
+    cursor: pointer;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    margin: auto;
+    min-height: 30px;
+    min-width: 120px;
+    padding: 5px;
+    position: relative;
+}
+
+button.bold {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+button.gray {
+    color: #333333;
+}
+
+button.high {
+    border-radius: 20px;
+    min-height: 40px;
+}
+
+button.large {
+    min-width: 220px;
+}
+
+button.red {
+    color: #BA2431;
+}
+
+button:focus {
+    outline: 0;
+}
+
+div.play {
+    margin-top: 40px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #E22C3B;
+    font-size: 20px;
+    line-height: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+img {
+    height: 200px;
+    margin: auto;
+}
+
+img.flag {
+    border: solid;
+    border-color: #ffffff;
+    border-radius: 20px;
+    border-width: 5px;
+}
+
+main {
+    color: #ffffff;
+    text-align: center;
+}
+
+main.index {
+    padding-bottom: 110px;
+    padding-top: 110px;
+}
+
+main.game {
+    padding-bottom: 120px;
+    padding-top: 118px;
+}
+
+#progress {
+    background-color: #333333;
+	height: 5px;
+	transition: 1s;
+}
+
+#question {
+    color: #E22C3B;
+    float: left;
+    text-align:center;
+    width:33.33333%;
+}
+
+#region {
+    color: #333333;
+    float: left;
+    font-weight: bold;
+    text-align:left;
+    width:33.33333%;
+}
+
+#select {
+    margin-top: 50px;
+}
+
+select {
+    background-color: #ffffff;
+    border: none;
+    border-bottom-right-radius: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px 0px #BA2431;
+    color: #333333;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 280px;
+    min-height: 50px;
+    text-align-last: center;
+}
+
+select:focus {
+    outline: 0;
+}
+
+::selection {
+    background: #ffb7b7;
+}
+
+#score {
+    color: #E22C3B;
+    float: left;
+    text-align:right;
+    width:33.33333%;
+}
+
+table {
+    border-spacing: 20px;
+    margin: auto;
+    margin-top: 40px;
+}
